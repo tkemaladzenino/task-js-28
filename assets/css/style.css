@@ -17,6 +17,10 @@ input:focus {
     display: flex;
 }
 
+#im1 {
+    display: none;
+}
+
 .main {
     width: 20%;
     height: 100px;
