@@ -32,16 +32,11 @@ function night() {
     document.getElementById("wel").innerHTML = "Create new account";
     document.getElementById("pw").style.color = "#FFFFFF";
     document.getElementById("pw").innerHTML = "Gave us some of your information to get free access to fieldly";
-
     document.getElementById("input1").style.display = "block";
-
-    document.getElementById("full-l").style.display = "block";
-    document.getElementById("full-l").style.color = "white";
-
-
 
 
     document.getElementById("em-l").style.color = "#FFFFFF";
+
     document.getElementById("pass-1").style.color = "#FFFFFF";
     document.getElementById("remember").style.display = "none";
     document.getElementById("recd").style.display = "none";
@@ -67,8 +62,14 @@ function day() {
     document.getElementById("pw").style.color = "black";
     document.getElementById("pw").innerHTML = "Welcome back! Please enter your details";
     document.getElementById("input1").style.display = "none";
+
+
     document.getElementById("em-l").style.color = "#000000";
+
+
     document.getElementById("input1").style.display = "none";
+
+
 
 
     document.getElementById("pass-1").style.color = "black";

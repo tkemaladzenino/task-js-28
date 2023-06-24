@@ -17,10 +17,6 @@ input:focus {
     display: flex;
 }
 
-#im1 {
-    display: none;
-}
-
 .main {
     width: 20%;
     height: 100px;
@@ -30,11 +26,6 @@ input:focus {
     margin-left: 150px;
 }
 
-#full-1 {
-    display: none;
-}
-
-
 .rec-div {
     display: flex;
     flex-direction: row;
@@ -43,7 +34,6 @@ input:focus {
 #input1 {
     display: none;
 }
-
 
 
 #remember {
