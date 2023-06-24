@@ -1,19 +1,16 @@
-@font-face {
-    font-family: Roboto;
-    src: url(..//../fonts/Roboto-Regular.ttf)
-}
-
-@font-face {
-    font-family: SF UI Text;
-    src: url(..//../fonts/SFUIText-Regular.ttf)
-}
-
 body {
-
-
     height: 100vh;
     padding: 0;
     margin: 0;
+}
+
+textarea:focus,
+input:focus {
+    color: #928080;
+}
+
+#remember {
+    display: flex;
 }
 
 #im {
@@ -24,7 +21,6 @@ body {
     display: none;
 }
 
-
 .main {
     width: 20%;
     height: 100px;
@@ -34,12 +30,25 @@ body {
     margin-left: 150px;
 }
 
-#full-l {
+#full-1 {
     display: none;
 }
 
-#full {
+
+.rec-div {
+    display: flex;
+    flex-direction: row;
+}
+
+#input1 {
     display: none;
+}
+
+
+
+#remember {
+    display: flex;
+
 }
 
 #imm-1 {
